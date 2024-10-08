@@ -11,7 +11,10 @@
 #### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
 
 # IDCardRecognition-Flutter
-We implemented ID card recognition SDK on Flutter framework for both Android and iOS.</br>
+We implemented `ID card recognition SDK` on `Flutter` framework for both `Android` and `iOS`.</br>
+This repository demonstrates `ID document recognition`, `ID card recognition`, `ID card scanner and reader` `ID document scanner and reader`, `ID Card OCR`, `passport reader` and `passport recognition` technology developed by `KBY-AI`.
+
+> In this repository, we integrated `KBY-AI`'s `ID document OCR` solution into both `Android` and `iOS` platform with `Flutter`.</br>
 ## Try the APK
 
 ### Google Play
@@ -55,11 +58,75 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=5InSERvHG
   | 4        | [ID Auto Capture - React](https://github.com/kby-ai/ID-document-capture-React)    | Web Front-end |
   | 5        | [ID Card Recognition - Windows](https://github.com/kby-ai/IDCardRecognition-Windows)        | Server-Windows |
   | 6        | [ID Card Recognition - Linux](https://github.com/kby-ai/IDCardRecognition-Docker)        | Server-Linux |
-  
-- To request SDK, please contact us:</br>
+
+ ## SDK License
+- The code line below shows how to update SDK with the `license key`: https://github.com/kby-ai/IDCardRecognition-Flutter/blob/507fa49c497b0fd9faeaa18de03309c4b3f65dec/lib/main.dart#L69-L86
+- To request `license key`, please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
 🧙`Telegram:` [@kbyai](https://t.me/kbyai)</br>
 🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
 🧙`Skype:` [live:.cid.66e2522354b1049b](https://join.skype.com/invite/OffY2r1NUFev)</br>
 🧙`Facebook:` https://www.facebook.com/KBYAI</br>
+
+## How To Run
+### 1. Flutter Setup
+  Make sure you have `Flutter` installed. </br>
+  This repo has been tested on Flutter version `3.22.3`.</br> 
+  If you don't get `Flutter` installed, please follow the instructions provided in the official `Flutter` documentation [here](https://docs.flutter.dev/get-started/install).</br>
+  
+### 2. Placing Library File
+   Download the `SDK library` file for Android(`idsdk.aar`) from [here](https://drive.google.com/file/d/1PZiI_RavJRT5d4ChweKfEO2RYMym68CR/view?usp=sharing) and put it on the suitable SDK folder(folder `android/libidsdk`).</br> 
+   If you are trying to build this repo on `Xcode` for `iOS`, you need to get `SDK Library` file for `iOS`(`facesdk.framework`) from `KBY-AI` by contacting us on the address(`WhatsApp`, `Email`, `Telegram` or `Skype`).</br>
+### 3. Running the App
+  Try to build this repo to make sure that SDK works fine by linking real `Android` phone, not `simulator`. Once it works fine, you are ready to integrate our SDK to your project.</br>
+  Run the following commands:</br>
+  ```bash
+  flutter pub upgrade
+  flutter run
+  ```  
+  If you plan to run the `iOS` app, please refer to the following [link](https://docs.flutter.dev/deployment/ios) for detailed instructions.</br>
+  
+## About SDK
+
+### 1. Set up
+#### 1.1 Setting Up SDK
+  > Android
+  - Download the `SDK library` file for Android(`idsdk.aar`) from [here](https://drive.google.com/file/d/1PZiI_RavJRT5d4ChweKfEO2RYMym68CR/view?usp=sharing) and put it on the suitable SDK folder(folder `android/libidsdk`).</br>
+    And then copy the SDK(folder `libidsdk`) to the folder `android` in your project.
+  - Add SDK to the project in `settings.gradle`.
+  ```dart
+  include ':libidsdk'
+  ```
+#### 1.2 Setting Up SDK Plugin
+  - Copy the folder `idsdk_plugin` to the `root` folder of your project.</br>
+  - Add the dependency in your `pubspec.yaml` file.
+  ```dart
+    idsdk_plugin:
+      path: ./idsdk_plugin
+  ```
+  - Import the `idsdk_plugin` package.
+  ```dart
+    import 'package:idsdk_plugin/idsdk_plugin.dart';
+  ```
+### 2 API Usages
+#### 2.1 IDsdk Plugin
+  - Activate the `IDsdkPlugin` by calling the `setActivation` method:
+  ```dart
+    final _IDsdkPlugin = IDsdkPlugin();
+    ...
+     await _IDsdkPlugin
+            .setActivation(
+                ...
+            .then((value) => facepluginState = value ?? -1);
+  ```
+  - Initialize the `IDsdkPlugin`:
+  ```dart
+  await _IDsdkPlugin
+            .init()
+            .then((value) => alprpluginState = value ?? -1)
+  ```
+  - Extract texts using the `idcardRecognition` method:
+  ```dart
+  final results = await _IDsdkPlugin.idcardRecognition(image.path)
+  ```
 
