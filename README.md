@@ -25,8 +25,8 @@ This repository demonstrates `ID document recognition`, `ID card recognition`, `
 
 ## Performance Video
 
-You can visit our YouTube video [here](https://www.youtube.com/watch?v=5InSERvHGvY) to see how well our demo app works.</br></br>
-[![ID Card Recognition Android](https://img.youtube.com/vi/5InSERvHGvY/0.jpg)](https://www.youtube.com/watch?v=5InSERvHGvY)
+You can visit our YouTube video [here](https://www.youtube.com/watch?v=Pn5Coq7QZ8s) to see how well our demo app works.</br></br>
+[![ID Card Recognition Android](https://img.youtube.com/vi/Pn5Coq7QZ8s/0.jpg)](https://www.youtube.com/watch?v=Pn5Coq7QZ8s)
 
 ## Screenshots
 
