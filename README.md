@@ -70,7 +70,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=s3G3MzrdD
 - The code line below shows how to update SDK with the `license key`: https://github.com/kby-ai/IDCardRecognition-Flutter/blob/507fa49c497b0fd9faeaa18de03309c4b3f65dec/lib/main.dart#L69-L86
 - To request `license key`, please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
-🧙`Telegram:` [@kbyai](https://t.me/kbyai)</br>
+🧙`Telegram:` [@kbyaisupport](https://t.me/kbyaisupport)</br>
 🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
 🧙`Discord:` [KBY-AI](https://discord.gg/CgHtWQ3k9T)</br>
 🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
