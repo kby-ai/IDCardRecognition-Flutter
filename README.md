@@ -82,7 +82,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=s3G3MzrdD
   If you don't get `Flutter` installed, please follow the instructions provided in the official `Flutter` documentation [here](https://docs.flutter.dev/get-started/install).</br>
   
 ### 2. Placing Library File
-   Download the `SDK library` file for Android(`idsdk.aar`) from [here](https://drive.google.com/file/d/1hys99a7QG7-px_m8DGa9RKqR7wr6E8bS/view?usp=sharing) and put it on the suitable SDK folder(folder `android/libidsdk`).</br> 
+   Download the `SDK library` file for Android(`idsdk.aar`) from [here](https://drive.google.com/file/d/1ktDva4cbY_ASEwTtLwnl--U-RgykR_M4/view?usp=sharing) and put it on the suitable SDK folder(folder `android/libidsdk`).</br> 
    If you are trying to build this repo on `Xcode` for `iOS`, you need to get `SDK Library` file for `iOS`(`facesdk.framework`) from `KBY-AI` by contacting us on the address(`WhatsApp`, `Email`, `Telegram` or `Skype`).</br>
 ### 3. Running the App
   Try to build this repo to make sure that SDK works fine by linking real `Android` phone, not `simulator`. Once it works fine, you are ready to integrate our SDK to your project.</br>
@@ -98,7 +98,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=s3G3MzrdD
 ### 1. Set up
 #### 1.1 Setting Up SDK
   > Android
-  - Download the `SDK library` file for Android(`idsdk.aar`) from [here](https://drive.google.com/file/d/1hys99a7QG7-px_m8DGa9RKqR7wr6E8bS/view?usp=sharing) and put it on the suitable SDK folder(folder `android/libidsdk`).</br>
+  - Download the `SDK library` file for Android(`idsdk.aar`) from [here](https://drive.google.com/file/d/1ktDva4cbY_ASEwTtLwnl--U-RgykR_M4/view?usp=sharing) and put it on the suitable SDK folder(folder `android/libidsdk`).</br>
     And then copy the SDK(folder `libidsdk`) to the folder `android` in your project.
   - Add SDK to the project in `settings.gradle`.
   ```dart
