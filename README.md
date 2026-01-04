@@ -79,7 +79,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=s3G3MzrdD
 ## How To Run
 ### 1. Flutter Setup
   Make sure you have `Flutter` installed. </br>
-  This repo has been tested on Flutter version `3.29.2`.</br> 
+  This repo has been tested on Flutter version `3.35.7`.</br> 
   If you don't get `Flutter` installed, please follow the instructions provided in the official `Flutter` documentation [here](https://docs.flutter.dev/get-started/install).</br>
   
 ### 2. Placing Library File
