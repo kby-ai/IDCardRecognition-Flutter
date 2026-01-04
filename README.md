@@ -73,7 +73,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=s3G3MzrdD
 🧙`Email:` contact@kby-ai.com</br>
 🧙`Telegram:` [@kbyaisupport](https://t.me/kbyaisupport)</br>
 🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
-🧙`Discord:` [KBY-AI](https://discord.gg/vBUMRJJe)</br>
+🧙`Discord:` [KBY-AI](https://discord.gg/6wm383re2s)</br>
 🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
 
 ## How To Run
